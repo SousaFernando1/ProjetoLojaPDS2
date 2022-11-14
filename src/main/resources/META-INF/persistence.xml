@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="LojaPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Bairro</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.CaracteristicaProduto</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Cidade</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Cliente</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Compra</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.CondicaoPagamento</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Cor</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Endereco</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.FoneFornecedor</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Fornecedor</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.ItensCompra</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.ItensVenda</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Marca</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Pagar</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Produto</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Receber</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Tamanho</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.TipoProduto</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Venda</class>
+    <class>com.fernandoegustavo.projetolojamaven.model.bo.Vendedor</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bancoLojaRober?verifyServerCertificate=false&amp;useSSL=false&amp;requireSSL=false&amp;serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="sousa"/>
+    </properties>
+  </persistence-unit>
+</persistence>
